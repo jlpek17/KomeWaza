@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- pour les icones -->
+    <script src="https://kit.fontawesome.com/9598891bde.js" crossorigin="anonymous"></script>
+    <!-- pour les icones -->
+    <!-- pour les Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto&family=Sigmar+One&display=swap"
+        rel="stylesheet">
+    <!-- pour les Google Font -->
+    <link rel="stylesheet" href="style.css">
+    <title>Kome Waza</title>
+</head>
+
+<body>
+    <header>
+        <!-- Creation de la Navbar -->
+        <nav>
+            <!-- icône hamburger pour responsive < 768 -->
+            <i id="hamburger" class="fa-solid fa-bars fa-2x" onclick="showOrHideLinks()"></i>
+            <!--  -->
+            <img id="logoNavbar" src="ressources/images/logo-kome-waza.jpg" alt="logo">
+
+            <ul id="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">Locations</a></li>
+                <li><a href="index.html">Online&nbsp;Orders</a></li>
+                <li><a href="index.html">Menus</a></li>
+                <li><a href="index.html">Catering</a></li>
+                <li><a href="index.html">Delivery&nbsp;Options</a></li>
+                <li><a href="index.html">More</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- illustration de l'ambiance-->
+    <main>
+        <section id="photoSeparator1"></section>
+
+        <section id="ambiance">
+            <img id="epiceVertical" src="ressources/images/epices.jpg" alt="epices">
+            <div id="texteAmbiance">
+                <h1>Kome Waza</h1>
+                <p>( ko-meh wa-za )</p>
+                <p>Respect the fish! Kome Waza strives to provide you with a delicate balance between time-honored
+                    Japanese sushi traditions and exciting new Asian-inspired flavors in a refreshing new take on
+                    the East Coast poke trend.</p>
+            </div>
+        </section>
+
+        <section class="photoMultiplat-2"></section>
+
+        <section id="tableauMenu">
+            <!-- j'utilise un tableau pour la mise en forme du menu-->
+            <table id="tableauContenu">
+                <caption id="tableauMenuTitre">
+                    <h2>SIGNATURE POKE</h2>
+                </caption>
+                <tr>
+                    <td id="iconeTableau"><i class="fa-solid fa-heart"></i></td>
+                    <td>
+                        <h3>1 WHITE SOY AVOCADO CREAM BOWL</h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <p>Seared tuna over 8-grain brown rice with mixed greens, hijiki quinoa, white soy avocado cream
+                            sauce, sesame seeds, garlic chips, kizami nori, tobiko, and salsa</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <h3>2 SILKEN SHISO TOFU BOWL<h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <p>Tuna and tofu over 8 - grain brown rice with mixed greens, hijiki quinoa, edamame, silken
+                            shiso
+                            tofu sauce, avocado, and kizami nori
+                        <p>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <h3>3 SALTED MANGO HAMACHI BOWL<h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <p>Hamachi and scallops over mixed greens with mango, hijiki quinoa, edamame, tomato, mango
+                            anchovy
+                            sauce, masago, sesame seeds, and radish sprouts</p>
+                    </td>
+                </tr>
+                <td id="iconeTableau"><i class="fa-solid fa-pepper-hot"></i></td>
+                <td>
+                    <h3>4 POMEGRANATE CITRUS SPICE BOWL<h3>
+                </td>
+                <tr>
+                    <td></td>
+                    <td>
+                        <p>Salmon over sushi rice with mixed greens, tomato, sweet onion, cucumber, edamame, pomegranate
+                            citrus spice sauce, ogo seaweed, sesame seeds, radish sprouts, and tobiko</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <h3>5 WASABI CASHEW TAKO BOWL<h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <p></p>Octopus, scallops, and shrimp over kale cold noodles with mixed greens, hijiki quinoa,
+                        tomato,
+                        wasabi cashew peanut sauce, ogo seaweed, rice pop, and radish sprouts</p>
+                    </td>
+                </tr>
+            </table>
+        </section>
+
+        <section class="photoMultiplat-3"></section>
+
+        <section class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48371.91984895331!2d-74.02520327921049!3d40.73463442561165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a1439cca535%3A0xc39aeb4e18004828!2sKome%20Waza!5e0!3m2!1sen!2sfr!4v1700669045331!5m2!1sen!2sfr"
+                style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </main>
+
+    <footer>
+        <div id="contact">
+            <h2>Contact</h2>
+            <p>646-368-1727 <br>
+                info@komewaza.com</p>
+        </div>
+    </footer>
+
+    <script type="text/javascript">
+
+        function showOrHideLinks() {
+
+            // je cible la liste des liens et ja le stocke dans une variable (+ lisible)
+            const navlinks = document.getElementById('navigation')
+
+            // La propriété display de la liste des liens est sur none ? Je l'affiche. Sinon : je la masque
+            navlinks.style.display == 'none' ? navlinks.style.display = 'block' : navlinks.style.display = 'none'
+        }
+
+    </script>
+
+
+</body>
+
+</html>

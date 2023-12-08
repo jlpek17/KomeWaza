@@ -1,0 +1,184 @@
+/* Init. CSS */
+* {
+    font-family: roboto;
+    color: #003e52;
+    margin: 0;
+    padding: 0;
+} 
+/* header > navbar */
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+}
+
+#hamburger {
+    display: none;
+}
+
+#logoNavbar {
+    width: 15vw;
+}
+
+#navigation {
+    display: flex;
+}
+
+#navigation li {
+    margin: 15px;
+    list-style: none;
+}
+
+/* main > Separateur Photo 1*/
+#photoSeparator1 {
+    background: url(ressources/images/header-image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+}
+/* main > A propos */
+#ambiance {
+    margin-left: 10vw;
+    margin-right: 15vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#epiceVertical {
+}
+
+#texteAmbiance {
+    margin-top: 100px;
+    text-align : right;
+    flex-basis: 28%;
+    margin-right: 50px;
+}
+
+#texteAmbiance h1 {
+    margin-bottom: 10px;
+}
+
+#texteAmbiance p {
+    margin-bottom: 30px;
+    line-height: 2;
+}
+
+.photoMultiplat-2 {
+    background: url(ressources/images/images-slider.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    width: 100vw;
+}
+
+/* main > le menu du restaurant */
+#tableauMenu {
+    margin-top: 1%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 1%;
+    color: #003E52;
+    display: flex;
+    justify-content: center;
+}
+
+#tableauContenu {
+    border-top:2px solid #003E52;
+    border-spacing: 25px 25px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+#tableauMenuTitre {
+    margin-bottom: 30px;
+}
+
+#iconeTableau {
+    font-size: 30px;
+}
+
+.photoMultiplat-3 {
+    background: url(ressources/images/sushis.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    width: 100vw;
+}
+iframe {
+    margin-top: 20px;
+    filter: grayscale(80%);
+    width: 100vw;
+    height: 300px
+}
+
+#contact {
+    padding-top: 50px;
+    height: 200px;
+    background: #003e52;
+}
+
+#contact h2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+#contact p {
+    color: white;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Responsive */
+
+/* ---> pour Tablette */
+
+@media screen and (max-width: 1024px) {
+
+nav {
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#navigation {
+    flex-direction: column;
+    align-items: center;
+}
+
+#logoNavbar {
+    width: 125px;
+}
+    
+#ambiance {
+    display: flex;
+    flex-direction: column;
+}   
+#texteAmbiance {
+    order: -1;
+}
+}
+
+@media screen and (max-width: 768px) {
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+#hamburger {
+    display: block
+}
+
+#logoNavbar {
+    width: 100px;
+}
